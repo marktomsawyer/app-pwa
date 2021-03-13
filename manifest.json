@@ -1,0 +1,47 @@
+{
+  "name": "calculadora",
+  "short_name": "calculadora",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/index.html",
+  "start_url": "/index.html",
+  "prefer_related_applications" : true,
+
+  "icons": [
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "72x72"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "96x96"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp","sizes": "128x128"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "144x144"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "152x152"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "192x192"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "384x384"
+        },
+        {
+          "src": "calculadora.webp",
+          "type": "image/webp", "sizes": "512x512"
+        }
+      ]
+  }
+}
