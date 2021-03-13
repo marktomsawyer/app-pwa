@@ -1,6 +1,5 @@
-const detomiDev = "calc-calender-v1"
+const detomiDev = "calculadora"
 const assets = [
-    "/",
     "/index.html",
     "/scripts.js",
 ]
