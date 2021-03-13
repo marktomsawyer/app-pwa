@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
         integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="calculadora.webp" type="image/x-icon">
+    <link rel="manifest" href="manifest.webmanifest">
+
+
+    
     <title>PWA</title>
 </head>
 
@@ -21,15 +27,15 @@
 
 
         <h1 style="text-align: center; color: white;">Calculadora</h1>
-        <div class="container">
-            <div class="row" style="margin-bottom: 30px;">
+        <div class="container" style="margin-bottom: 30px; margin-top: 10px;">
+            <div class="row" >
                 <div class="col-sm">
                     <label for="n1" style="color: white;">Número 1: </label>
                     <input type="number" id="n1">
                 </div>
                 <div class="col=sm">
                     <label for="n2" style="color: white;">Número 2: </label>
-                    <input type="number" id="n1">
+                    <input type="number" id="n2">
                 </div>
 
                 <div class="col=sm">
@@ -40,7 +46,7 @@
         </div>
 
         <div>
-            <button type="button" class="btn btn-dark">Calcular</button>
+            <button type="button" onclick="calc()" class="btn btn-dark">Calcular</button>
         </div>
     </main>
 </body>
