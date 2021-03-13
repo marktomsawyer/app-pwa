@@ -21,6 +21,7 @@ function calc() {
 
     resultado.value = Number(n1.value) + Number(n2.value);
 
+    document.getElementById.value = resultado.value;
     console.log(resultado.value);
 
 }
